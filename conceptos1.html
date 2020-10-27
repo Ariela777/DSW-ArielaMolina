@@ -47,9 +47,158 @@
     </div>
     </header>
     <div class="contenedor">
+      <table>
+        <tr>
+          <td> 
+            <h2 class="parrafo">Estructura</h2>
+  
+
+      <p Los documentos HTML se hallan imparcialmente constituidos. Cada parte del documento está caracterizada, revelada y definitiva por etiquetas específicas. Primero necesitamos mostrar el tipo de documento que estamos creando. Esto en HTML5 es sencillo:
+
+      < !DOCTYPE html  >
+      
+      Luego de declarar el tipo de documento, debemos construir la estructura HTML. < html>. Este elemento cercará al resto del código:
+      <li>< !DOCTYPE html></li>
+      <li>< html lang=”es”></html></li>
+      <li>< /html></li>
+      
+      El elemento < head > va primero e igual que el resto de los elementos estructurales tiene una etiqueta de apertura y una de cierre:
+      
+      <li>< !DOCTYPE html></li>
+      <li>< html lang="es"></html></li>
+      <li>< head></head></li>
+      <li>< /head></li>
+      <li>< /html></li>
+      
+      El cuerpo representa la parte perceptible de todo documento y desarrollado previas de HTML:
+      
+      <li>< !DOCTYPE html></li>
+      <li>< html lang="es"></html></li>
+      <li>< head></head></li>
+      <li>< /head></li>
+      <li> < body ></li>
+      <li>< /body></li>
+      <li>< /html></li>
+      
+      
+      construir la cabecera del documento. Ésta es una etiqueta < meta>
+      que especifica cómo el texto será presentado en pantalla:
+      
+      <li>< !DOCTYPE html></li>
+      <li>< html lang="es"></html></li>
+      <li>< head></head></li>
+      <li>< meta charset=”iso-8859-1”></li>
+      <li>< / head></li>
+      <li>< body></body></li>
+      <li>< / body></li>
+      <li>< / html></li>
+      
+      
+      
+      
+      
+      El invento de este elemento en HTML5, es solo reducción. La nueva etiqueta < meta> para la definición del tipo de caracteres es más corta y simple. podemos cambiar el tipo iso-8859-1 por el necesario para nuestros documentos y agregar etiquetas <meta> como description o keywords para definir otros aspectos de la página web:
+      
+      <li>< !DOCTYPE html></li>
+      <li>< html lang="es"></html></li>
+      <li>< head></head></li>
+      <li>< meta charset="iso-8859-1"></li>
+      <li>< meta name=”description” content=”Ejemplo de HTML5”></li>
+      <li>< meta name=”keywords” content=”HTML5, CSS3, Javascript”></li>
+      <li>< / head></li>
+      <li>< body></body></li>
+      <li>< / body></li>
+      <li>< / html></li>
+      
+      
+      La etiqueta < title>,  simplemente detalla el título del documento:
+      
+      <li>< ! DOCTYPE html></li>
+      <li>< html lang="es"></li>
+      <li>< head>< /head></li>
+      <li>< meta charset="iso-8859-1"></li>
+      <li>< meta name="description" content="Ejemplo de HTML5"></li>
+      <li>< meta name="keywords" content="HTML5, CSS3, JavaScript"></li>
+      <li>< title>Este texto es el título del documento</ title></li>
+      <li>< / head></li>
+      <li>< body></body></li>
+      <li>< / body></li>
+      <li>< / html></li>
+      
+      Este elemento es usado para incorporar estilos, códigos Javascript, imágenes o iconos desde
+      archivos externos. También incorpora los archivos con estilos CSS:
+      
+      <li>< ! DOCTYPE html></li>
+      <li>< html lang="es">< /html></li>
+      <li>< head>< /head></li>
+      <li>< meta charset="iso-8859-1"></li>
+      <li>< meta name="description" content="Ejemplo de HTML5"></li>
+      <li>< meta name="keywords" content="HTML5, CSS3, JavaScript"></li>
+      <li>< title>Este texto es el título del documento</ title></li>
+      <li>< link rel=”stylesheet” href=”misestilos.css”></li>
+      <li>< / head></li>
+      <li>< body></body></li>
+      <li>< / body></li>
+      <li>< / html></li>
+      
+      <h2 class="parrafo">Organización Del Cuerpo</h2>
+      
+      
+       <center>
+        <img src="imagen_2.png"   alt="imagen_2"/>
+          </center>
+
+          En la parte superior, descripto como cabecera, se encuentra el espacio donde usualmente se ubica el logo, título, subtítulos y una corta descripción del sitio web o la página. Debajo, la barra de navegación aquí se ofrece un menú de enlaces con la intención de facilitar la navegación a través del sitio.  la mayoría de las veces es dividida en varias filas y columnas. 
+     
+      
+          <center>
+            <img src="imagen_3.png"   alt="imagen_3"/>
+              </center>
+              La imagen 2 es una representación de un blog normal.
+              <li> 1. Cabecera</li>
+              <li> 2. Barra de Navegación</li>
+              <li> 3. Sección de Información Principal</li>
+              <li> 4. Barra Lateral</li>
+              <li> 5. El pie o la barra Institucional</li>
+              Esta forma de un blog nos puede ayudar a entender que cada sección
+              determinada en un sitio web tiene un propósito. 
+              HTML5 considera esta estructura básica y suministra nuevos elementos para desigualar y
+              declarar cada una de sus partes. 
+              
+               
+              < nav> Siguiendo con nuestro ejemplo, la siguiente sección es la Barra de Navegación. Esta barra
+                es generada en HTML5 con el elemento < nav>:
+                    <li>< !DOCTYPE html></li>
+                    <li>< html lang="es">< / html></li>
+                    <li>< head>< / head></li>
+                    <li>< meta charset="iso-8859-1"></li>
+                    <li>< meta name="description" content="Ejemplo de HTML5"></li>
+                    <li>< meta name="keywords" content="HTML5, CSS3, JavaScript"></li>
+                    <li>< title>Este texto es el título del documento< / title></li>
+                    <li>< link rel="stylesheet" href="misestilos.css"></li>
+                    <li>< / head></li>
+                    <li>< body>< / body></li>
+                    <li>< header>< / header></li>
+                    <li>< h1>Este es el título principal del sitio web< / h1></li>
+                    <li>< /header></li>
+                    <li>< nav>< / nav></li>
+                    <li>< ul > < / li> </li>
+                    <li>< li>principal </li> 
+                    <li>< li>fotos< / li></li>
+                    <li>< li>videos< / li></li>
+                    <li>< li>contacto< / li></li>
+                    <li>< / ul></li>
+                    <li>< / nav></li>
+                    <li>< / body></li>
+                    <li>< / html></li>
+                
+      </p>
+    </td>
+    <div class="contenedor">
     <div class="contenedor">
                 <meta charset="utf-8">
                 <title>Autor</title>
                 <link rel="stylesheet" href="estilos.css">
 </body>
+
 </html>
