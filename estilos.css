@@ -16,7 +16,7 @@ footer{
 .titulo{
     text-align: center;
     font-size: xx-large;
-    color:#F47920 ;
+    columns: #000000; ;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    
 }
@@ -24,7 +24,6 @@ footer{
 {
 	text-align: center;
     font-size: x-large;
-    columns: #000000; ;
 	font-family: 'Times New Roman', Times, serif;
 
 }
@@ -32,7 +31,6 @@ footer{
 {
 	text-align: justify;
     font-size: medium;
-    columns: #000000; ;
     font-family: 'Times New Roman', Times, serif;
    
 
